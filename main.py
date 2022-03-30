@@ -1,14 +1,14 @@
-first_number = input("Введите первое число: ")
-second_number = input("Введите второе число: ")
-action = input("Введите оператор: ")
+first_number = input("Enter first number: ")
+second_number = input("Enter second number: ")
+action = input("Enter operator: ")
 
 if action == '+':
-    print(int(first_number) + int(second_number))
+    print(f"Your result: {int(first_number)} + {int(second_number)} = {int(first_number) + int(second_number)}")
 elif action == '-':
-    print(int(first_number) - int(second_number))
+    print(f"Your result: {int(first_number)} - {int(second_number)} = {int(first_number) - int(second_number)}")
 elif action == '*':
-    print(int(first_number) * int(second_number))
+    print(f"Your result: {int(first_number)} * {int(second_number)} = {int(first_number) * int(second_number)}")
 elif action == '/':
-    print(round((int(first_number) / int(second_number)), 2))
+    print(f"Your result: {int(first_number)} / {int(second_number)} = {round((int(first_number) / int(second_number)), 2)}")
 else:
     print("Try again")
